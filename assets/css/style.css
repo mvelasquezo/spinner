@@ -1,0 +1,16 @@
+body {
+    font-family: Netflix, Helvetica, sans-serif;
+    background-color: #000;
+    color: #FFF;
+}
+
+.contenedor-est {
+    width: 100%;
+}
+
+.contenedor-est.centrado {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}

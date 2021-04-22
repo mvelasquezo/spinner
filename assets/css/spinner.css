@@ -1,0 +1,25 @@
+.spi {
+    margin: 0 auto;
+    width: 36px;
+    height: 36px;
+}
+
+.spi.apa {
+    border: solid 4px rgba(255, 255, 255, 0.1);
+    /*border-left-color: transparent;*/
+    border-left-color: #09F;
+    border-radius: 50%;
+}
+
+.spi.ani {
+    animation: spi 1s linear infinite;
+}
+
+@keyframes spi {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
